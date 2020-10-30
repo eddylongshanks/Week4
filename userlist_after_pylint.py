@@ -71,6 +71,8 @@ class Users:
 
 users = Users()
 numberOfUsers = int(input("How many users do you want to add?: "))
+# Disabled the pylint naming convention for constant, due to false positive
+# userCount object is not a constant, rather a counter that increases
 userCount = 1 #pylint: disable=c0103
 
 while userCount <= numberOfUsers:
