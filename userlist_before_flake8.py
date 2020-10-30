@@ -3,10 +3,6 @@
 # Repurposed GetUsers method on the Users class to return the users array
 # Refactored some repr and str methods to work better with the above changes 
 
-"""
-    My comments in triple quoted strings, Gav.
-    """
-
 class User:
     def __init__(self, name, age):
         self.name = name
